@@ -17,9 +17,9 @@ from .enums import HistoricalKlinesType
 
 class BaseClient:
 
-    API_URL = 'https://api.binance.{}/api'
+    API_URL = 'https://api2.binance.{}/api'
     API_TESTNET_URL = 'https://testnet.binance.vision/api'
-    MARGIN_API_URL = 'https://api.binance.{}/sapi'
+    MARGIN_API_URL = 'https://api2.binance.{}/sapi'
     WEBSITE_URL = 'https://www.binance.{}'
     FUTURES_URL = 'https://fapi.binance.{}/fapi'
     FUTURES_TESTNET_URL = 'https://testnet.binancefuture.com/fapi'
